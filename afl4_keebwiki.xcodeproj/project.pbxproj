@@ -15,12 +15,12 @@
 		04AFEA37284E5A5D00245EE9 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA36284E5A5D00245EE9 /* FavoriteView.swift */; };
 		04AFEA39284E5A6500245EE9 /* ProfileVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA38284E5A6500245EE9 /* ProfileVIew.swift */; };
 		04AFEA3D284E5F4700245EE9 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA3C284E5F4700245EE9 /* ModelData.swift */; };
-		04AFEA44284E60A300245EE9 /* keyboardData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AFEA43284E60A300245EE9 /* keyboardData.json */; };
 		04AFEA46284E60FD00245EE9 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA45284E60FD00245EE9 /* Keyboard.swift */; };
 		04AFEA4C284E621400245EE9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA4B284E621400245EE9 /* DetailView.swift */; };
 		04AFEA4E284E624100245EE9 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA4D284E624100245EE9 /* ItemCard.swift */; };
 		04AFEA50284E62F100245EE9 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA4F284E62F100245EE9 /* FavoriteButton.swift */; };
 		04AFEA52284E6AE400245EE9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA51284E6AE400245EE9 /* HomeView.swift */; };
+		04AFEA54284E6F8A00245EE9 /* keyboardData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AFEA53284E6F8A00245EE9 /* keyboardData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +33,12 @@
 		04AFEA36284E5A5D00245EE9 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		04AFEA38284E5A6500245EE9 /* ProfileVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVIew.swift; sourceTree = "<group>"; };
 		04AFEA3C284E5F4700245EE9 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
-		04AFEA43284E60A300245EE9 /* keyboardData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = keyboardData.json; path = "../../../amad-afl4-keeb-wiki-rey/amad-afl4-keeb-wiki/Resources/keyboardData.json"; sourceTree = "<group>"; };
 		04AFEA45284E60FD00245EE9 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		04AFEA4B284E621400245EE9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		04AFEA4D284E624100245EE9 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
 		04AFEA4F284E62F100245EE9 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		04AFEA51284E6AE400245EE9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04AFEA53284E6F8A00245EE9 /* keyboardData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = keyboardData.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 		04AFEA3B284E5F2800245EE9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04AFEA43284E60A300245EE9 /* keyboardData.json */,
+				04AFEA53284E6F8A00245EE9 /* keyboardData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -179,9 +179,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AFEA44284E60A300245EE9 /* keyboardData.json in Resources */,
 				04829F14284E4AD1002E5C72 /* Preview Assets.xcassets in Resources */,
 				04829F11284E4AD1002E5C72 /* Assets.xcassets in Resources */,
+				04AFEA54284E6F8A00245EE9 /* keyboardData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

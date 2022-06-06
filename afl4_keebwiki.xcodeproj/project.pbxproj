@@ -20,6 +20,7 @@
 		04AFEA4E284E624100245EE9 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA4D284E624100245EE9 /* ItemCard.swift */; };
 		04AFEA50284E62F100245EE9 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA4F284E62F100245EE9 /* FavoriteButton.swift */; };
 		04AFEA52284E6AE400245EE9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFEA51284E6AE400245EE9 /* HomeView.swift */; };
+		04AFEA5A284E71B300245EE9 /* keyboardData.json in Resources */ = {isa = PBXBuildFile; fileRef = 04AFEA59284E71B300245EE9 /* keyboardData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,7 @@
 		04AFEA4D284E624100245EE9 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
 		04AFEA4F284E62F100245EE9 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		04AFEA51284E6AE400245EE9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		04AFEA58284E714C00245EE9 /* keyboardData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = keyboardData.json; sourceTree = "<group>"; };
+		04AFEA59284E71B300245EE9 /* keyboardData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = keyboardData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +116,7 @@
 		04AFEA57284E712D00245EE9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				04AFEA58284E714C00245EE9 /* keyboardData.json */,
+				04AFEA59284E71B300245EE9 /* keyboardData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -180,6 +181,7 @@
 			files = (
 				04829F14284E4AD1002E5C72 /* Preview Assets.xcassets in Resources */,
 				04829F11284E4AD1002E5C72 /* Assets.xcassets in Resources */,
+				04AFEA5A284E71B300245EE9 /* keyboardData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

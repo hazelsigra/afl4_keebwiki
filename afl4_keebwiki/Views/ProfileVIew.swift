@@ -11,11 +11,12 @@ struct ProfileView: View {
     var body: some View {
         VStack {
             Image("311441")
-                .frame(width: 128, height: 128)
-                .cornerRadius(128)
+                .frame(width: 300, height: 300)
+                .cornerRadius(250)
             Text("PDD - Diaz")
-                .fontWeight(.bold)
-                .font(.title2)
+                .foregroundColor(.black)
+                .font(.system(size: 30))
+                .fontWeight(.heavy)
         }
     }
 }

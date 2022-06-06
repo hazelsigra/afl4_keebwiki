@@ -18,36 +18,41 @@ struct DetailView: View {
     var body: some View {
         HStack(alignment: .top) {
             VStack {
-                Text(keyboard.name)
-                Image(keyboard.image)
-                HStack {
-                    Text("Layout: \(keyboard.layout)")
-                        .foregroundColor(.gray)
-                        .padding()
-                    FavoriteButton(isSet: $modelData.keyboards[keyboardIndex].is_favorite)
+                VStack {
+                    Image(keyboard.image)
                 }
                 VStack(alignment: .leading) {
                     Text("Specification")
                         .fontWeight(.bold)
-                        .font(.body)
+                        .font(.title2)
+                        .padding(.top)
+                    HStack {
+                        Text(keyboard.name)
+                        FavoriteButton(isSet: $modelData.keyboards[keyboardIndex].is_favorite)
+                    }
+                    Text("Designer \(keyboard.designer)")
+                        .font(.caption)
+                        .padding(.top)
+                    Text("Layout: \(keyboard.layout)")
+                        .font(.caption)
                     Text("Mounting system: \(keyboard.mounting_system)")
-                        .font(.subheadline)
+                        .font(.caption)
                     Text("Weight: \(keyboard.weight)")
-                        .font(.subheadline)
+                        .font(.caption)
                     Text("Typing angle: \(keyboard.typing_angle)")
-                        .font(.subheadline)
+                        .font(.caption)
                     Text("Front height: \(keyboard.front_height)")
-                        .font(.subheadline)
+                        .font(.caption)
                 }
-                
             }
+            
         }
     }
 }
 
 struct DetailView_Previews: PreviewProvider {
     static let modelData = ModelData()
-    
+        
     static var previews: some View {
         DetailView(keyboard: ModelData().keyboards[0])
             .environmentObject(modelData)

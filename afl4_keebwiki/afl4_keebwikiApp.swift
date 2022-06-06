@@ -11,7 +11,7 @@ import SwiftUI
 struct afl4_keebwikiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

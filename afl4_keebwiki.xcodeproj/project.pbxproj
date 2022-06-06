@@ -75,8 +75,6 @@
 				04AFEA3A284E5F2100245EE9 /* Models */,
 				04AFEA33284E5A3000245EE9 /* Views */,
 				04829F0C284E4AD0002E5C72 /* afl4_keebwikiApp.swift */,
-				04829F0E284E4AD0002E5C72 /* ContentView.swift */,
-				04AFEA31284E55A500245EE9 /* SplashScreenView.swift */,
 				04829F10284E4AD1002E5C72 /* Assets.xcassets */,
 				04829F12284E4AD1002E5C72 /* Preview Content */,
 			);
@@ -94,6 +92,8 @@
 		04AFEA33284E5A3000245EE9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				04829F0E284E4AD0002E5C72 /* ContentView.swift */,
+				04AFEA31284E55A500245EE9 /* SplashScreenView.swift */,
 				04AFEA51284E6AE400245EE9 /* HomeView.swift */,
 				04AFEA36284E5A5D00245EE9 /* FavoriteView.swift */,
 				04AFEA38284E5A6500245EE9 /* ProfileVIew.swift */,

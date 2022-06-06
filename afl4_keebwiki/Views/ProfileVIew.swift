@@ -7,14 +7,21 @@
 
 import SwiftUI
 
-struct ProfileVIew: View {
+struct ProfileView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("311441")
+                .frame(width: 128, height: 128)
+                .cornerRadius(128)
+            Text("PDD - Diaz")
+                .fontWeight(.bold)
+                .font(.title2)
+        }
     }
 }
 
-struct ProfileVIew_Previews: PreviewProvider {
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileVIew()
+        ProfileView()
     }
 }

@@ -20,7 +20,7 @@ struct ContentView: View {
                     Image(systemName: "heart.fill")
                     Text("Favorite")
                 }
-            ProfileVIew()
+            ProfileView()
                 .tabItem() {
                     Image(systemName: "person.fill")
                     Text("Profile")
@@ -32,5 +32,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }

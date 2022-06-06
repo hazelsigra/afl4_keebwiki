@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct afl4_keebwikiApp: App {
+    @StateObject private var modelData = ModelData()
     var body: some Scene {
         WindowGroup {
             SplashScreenView()
+                .environmentObject(modelData)
         }
     }
 }
